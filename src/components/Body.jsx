@@ -3,22 +3,25 @@ export default function Body() {
         <header>
             <h2>"There's always tomorrow for dreams to come true." - Rudolph the Red-Nosed Reindeer  
             </h2>
-
+        <p>
             <img src="../src/images/rudolph.jpg"></img>
-
+        </p>
     
         <div className="container">
     
 
-          <table className="card">
-            Rudolph1
-            </table>
-              <table>
-            Rudolph2
-              </table>
-            <table>
-            Rudolph3
-          </table>
+        <section className="card">
+            <section>
+            <ul>Rudolph1</ul>
+            
+              
+            <ul>Rudolph2</ul>
+             
+            
+            <ul>Rudolph3</ul>
+          </section>
+
+        </section>
 
         </div>
     

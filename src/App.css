@@ -10,6 +10,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Agdasima', sans-serif;
+  text-align: center;
 }
 
 .App {
@@ -28,11 +29,12 @@ h1, h2, h3 {
 }
 
 .container {
+  display: flex;
   background-color: pink;
   height: auto;
   width: 100%;
   border: solid red 2px;
-  justify-content: centerx space-around;
+  justify-content: center space-around;
   margin: 1em;
   align-items: stretch;
   flex-wrap: wrap;
@@ -40,7 +42,15 @@ h1, h2, h3 {
 }
 
 .card {
-  
+  display: flex;
+  background-color: pink;
+  height: auto;
+  width: 100%;
+  border: solid red 2px;
+  justify-content: center space-around;
+  margin: 1em;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .App-header {
