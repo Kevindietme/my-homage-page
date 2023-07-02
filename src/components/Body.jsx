@@ -1,14 +1,16 @@
-export default function Header() {
+export default function Body() {
     return (
         <header>
             <h2>"There's always tomorrow for dreams to come true." - Rudolph the Red-Nosed Reindeer  
             </h2>
 
-    
-    <main>
-        <div className="container">
+            <img src="../src/images/rudolph.jpg"></img>
 
-          <table className="text">
+    
+        <div className="container">
+    
+
+          <table className="card">
             Rudolph1
             </table>
               <table>
@@ -19,7 +21,7 @@ export default function Header() {
           </table>
 
         </div>
-    </main>
+    
         </header>
     )
 }

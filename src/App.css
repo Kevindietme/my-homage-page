@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Signika+Negative:wght@500&display=swap');
+
 body {
-  background-image: url("../src/images/bg.jpg");
+  background-image: url("../src/images/bgwinter.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  font-family: 'Agdasima', sans-serif;
 }
 
 .App {
@@ -26,18 +32,22 @@ body {
   height: auto;
   width: 100%;
   border: solid red 2px;
-  justify-content: center;
+  justify-content: centerx space-around;
   margin: 1em;
   align-items: stretch;
   flex-wrap: wrap;
 
 }
 
+.card {
+  
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
